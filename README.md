@@ -21,3 +21,8 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * Sample submission script: https://github.com/bzkarimi/Scripts/blob/master/HPC/fdmnes-hoffman.sh
 
+## Papers to read
+
+* https://journals.aps.org/prb/abstract/10.1103/PhysRevB.63.125120
+
+* 
