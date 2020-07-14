@@ -19,3 +19,5 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * ./mpirun_fdmnes -h: For getting help.
 
+* Sample submission script: https://github.com/bzkarimi/Scripts/blob/master/HPC/fdmnes-hoffman.sh
+
