@@ -25,4 +25,18 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * https://journals.aps.org/prb/abstract/10.1103/PhysRevB.63.125120
 
-* 
+* https://link.springer.com/article/10.1007/s11244-016-0612-0
+
+* https://iopscience.iop.org/article/10.1088/1742-6596/190/1/012007
+
+* https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.0c02823
+
+* https://iopscience.iop.org/article/10.1088/1742-6596/190/1/012084/meta
+
+* https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b10167
+
+* https://iopscience.iop.org/article/10.1238/Physica.Topical.115a00813
+
+* https://pubs.acs.org/doi/10.1021/acs.jpcc.8b07952
+
+* http://sabotin.ung.si/~arcon/xas/xanes/xanes-theory.pdf
