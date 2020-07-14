@@ -11,7 +11,7 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * There are several problems regarding the Mac version installation of **Athena**, and it is recommended to install the Windows version of it. 
 
-## Run FDMNES
+## Running FDMNES
 
 * ./mpirun_fdmnes -np 16: To run the parallel version of **FDMNES**.
 
