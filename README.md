@@ -13,6 +13,12 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 ## Running FDMNES
 
+* First of all, you need to set the path to your input file(s) in **fdmfile.txt** file.
+
+* The actual input file format is .txt.
+
+* Sample input/output files can be found here: 
+
 * ./mpirun_fdmnes -np 16: To run the parallel version of **FDMNES**.
 
 * HOST_NUM_FOR_MUMPS=4 ./mpirun_fdmnes -np 20: 20 MPI processes, which fdmnes divides into 5 groups of 4 processes in each. One group calculates one energy value by parallel MUMPS solver with 4 parallel processes.
