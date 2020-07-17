@@ -1,0 +1,39 @@
+! Fdmnes indata file
+! Calculation for the platinum L3-edge in Pt ccp
+! Calculation on Pt ccp using the multiple scattering approach (muffin-tin appx) with convolution.
+
+ Filout
+   Sim/Test_stand/out/Pt
+
+ Range                                     ! Energy range of calculation (eV)
+  -2. 0.2  3. 0.5 10. 1. 20. 2. 40.        ! first energy, step, intermediary energy, step ..., last energy    
+
+ Radius                                    ! Radius of the cluster where final state calculation is performed
+   8.0                                     ! For a good calculation, this radius must be increased up to 6 or 7 Angstroems
+
+ Green
+ Relativism
+
+ Edge
+  L3
+
+ Rmtg
+  1.7
+
+ Spgroup
+  Fm-3m
+
+ Crystal                            ! Periodic material description (unit cell)
+     3.92  3.92  3.92  90. 90. 90   ! a, b, c, (Angstroem) alpha, beta, gamma (degree)
+ 78  0.0   0.0   0.0                ! Z, x, y, z (unit cell unit)
+ 
+! Convolution keyword : broadening with a width increasing versus energy as an arctangent
+
+ Convolution 
+
+ Estart              ! To get a convolution spectra starting at lower energy
+   -20
+ 
+ End
+
+
