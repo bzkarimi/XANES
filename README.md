@@ -17,7 +17,11 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * The actual input file format is .txt.
 
-* Sample input/output files can be found here: 
+* Output files: **filename_conv.txt** contains the energies and intensities of the spectrum and **filename_bav.txt** is the log file which contains more detailed information about the calculations.
+
+* Sample input/output files can be found here: https://github.com/bzkarimi/XANES/tree/master/Sample-files
+
+## FDMNES Running Commands
 
 * ./mpirun_fdmnes -np 16: To run the parallel version of **FDMNES**.
 
@@ -27,7 +31,18 @@ A practical guide on how to use **FDMNES** software to do XANES
 
 * Sample submission script: https://github.com/bzkarimi/Scripts/blob/master/HPC/fdmnes-hoffman.sh
 
-## Papers to read
+## Post-processing
+
+* You have to normalize the intensities before you plot the spectrum (**filename_conv.txt**). This can be done automatically using **Athena** software. You just need to open **filename_conv.txt** with **Athena** and click on normalize. Then you can save the new data into a new file.
+
+* **Note**: When you open your raw file (**filename_conv.txt**) with **Athena**, it asks which column in your data corresponds to E (first column) and which column corresponds to intensity (second column).
+
+* **Linear Combination Fitting (LCF)**: In order to do **LCF**, you have to open all files that you want to use (Standards and the one that you want to do the fitting). Once you have all your files open in **Athena** simply choose the spectrum that you want to do **LCF** on, then choose Linear Combination Fitting from the menu. The software automatically sets the other files as standards. The initial coefficients for each standard is equal to each other. Once you do **LCF** you can obtain the new coefficients and extract the fitted spectrum data.
+
+* **Note**: Make sure that you do **LCF** on the normalized spectrum not the raw ones.
+
+
+## Papers to Read
 
 * https://journals.aps.org/prb/abstract/10.1103/PhysRevB.63.125120
 
